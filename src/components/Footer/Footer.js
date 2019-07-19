@@ -119,7 +119,7 @@ const Footer = props => {
                     }}
                     className={css.link}
                   >
-                    <FormattedMessage id="Footer.searchHelsinki" />
+                    {/* <FormattedMessage id="Footer.searchHelsinki" /> */}
                   </NamedLink>
                 </li>
                 <li className={css.listItem}>
@@ -131,7 +131,7 @@ const Footer = props => {
                     }}
                     className={css.link}
                   >
-                    <FormattedMessage id="Footer.searchTurku" />
+                    {/* <FormattedMessage id="Footer.searchTurku" /> */}
                   </NamedLink>
                 </li>
                 <li className={css.listItem}>
@@ -143,7 +143,7 @@ const Footer = props => {
                     }}
                     className={css.link}
                   >
-                    <FormattedMessage id="Footer.searchTampere" />
+                    {/* <FormattedMessage id="Footer.searchTampere" /> */}
                   </NamedLink>
                 </li>
                 <li className={css.listItem}>
@@ -155,7 +155,7 @@ const Footer = props => {
                     }}
                     className={css.link}
                   >
-                    <FormattedMessage id="Footer.searchOulu" />
+                    {/* <FormattedMessage id="Footer.searchOulu" /> */}
                   </NamedLink>
                 </li>
                 <li className={css.listItem}>
@@ -167,7 +167,7 @@ const Footer = props => {
                     }}
                     className={css.link}
                   >
-                    <FormattedMessage id="Footer.searchRuka" />
+                    {/* <FormattedMessage id="Footer.searchRuka" /> */}
                   </NamedLink>
                 </li>
               </ul>
@@ -183,7 +183,7 @@ const Footer = props => {
                     }}
                     className={css.link}
                   >
-                    <FormattedMessage id="Footer.searchKuopio" />
+                    {/* <FormattedMessage id="Footer.searchKuopio" /> */}
                   </NamedLink>
                 </li>
                 <li className={css.listItem}>
@@ -195,7 +195,7 @@ const Footer = props => {
                     }}
                     className={css.link}
                   >
-                    <FormattedMessage id="Footer.searchMikkeli" />
+                    {/* <FormattedMessage id="Footer.searchMikkeli" /> */}
                   </NamedLink>
                 </li>
                 <li className={css.listItem}>
@@ -207,7 +207,7 @@ const Footer = props => {
                     }}
                     className={css.link}
                   >
-                    <FormattedMessage id="Footer.searchEspoo" />
+                    {/* <FormattedMessage id="Footer.searchEspoo" /> */}
                   </NamedLink>
                 </li>
                 <li className={css.listItem}>
@@ -219,7 +219,7 @@ const Footer = props => {
                     }}
                     className={css.link}
                   >
-                    <FormattedMessage id="Footer.searchVantaa" />
+                    {/* <FormattedMessage id="Footer.searchVantaa" /> */}
                   </NamedLink>
                 </li>
                 <li className={css.listItem}>
@@ -231,7 +231,7 @@ const Footer = props => {
                     }}
                     className={css.link}
                   >
-                    <FormattedMessage id="Footer.searchAhvenanmaa" />
+                    {/* <FormattedMessage id="Footer.searchAhvenanmaa" /> */}
                   </NamedLink>
                 </li>
               </ul>

@@ -4,44 +4,37 @@
 
 export const amenities = [
   {
-    key: 'towels',
-    label: 'Towels',
+    key: 'Kitchen Available',
+    label: 'Kitchen Available',
   },
   {
-    key: 'bathroom',
-    label: 'Bathroom',
+    key: 'staff',
+    label: 'Staff',
   },
   {
-    key: 'swimming_pool',
-    label: 'Swimming pool',
+    key: 'silverware',
+    label: 'Silverware',
   },
   {
-    key: 'own_drinks',
-    label: 'Own drinks allowed',
+    key: 'glassware',
+    label: 'Glassware',
   },
   {
-    key: 'jacuzzi',
-    label: 'Jacuzzi',
+    key: 'bar',
+    label: 'Bar',
   },
   {
     key: 'audiovisual_entertainment',
     label: 'Audiovisual entertainment',
   },
-  {
-    key: 'barbeque',
-    label: 'Barbeque',
-  },
-  {
-    key: 'own_food_allowed',
-    label: 'Own food allowed',
-  },
 ];
 
 export const categories = [
-  { key: 'smoke', label: 'Smoke' },
-  { key: 'electric', label: 'Electric' },
-  { key: 'wood', label: 'Wood' },
-  { key: 'other', label: 'Other' },
+  { key: 'Casual Dining', label: 'Casual Dining' },
+  { key: 'Family Style', label: 'Family Style' },
+  { key: 'Fine Dining', label: 'Fine Dining' },
+  { key: 'Fast Casual', label: 'Fast Casual' },
+  { key: 'Quick Serve', label: 'Quick Serve' }
 ];
 
 // Price filter configuration

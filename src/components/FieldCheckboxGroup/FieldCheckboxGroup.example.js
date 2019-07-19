@@ -8,42 +8,34 @@ import { requiredFieldArrayCheckbox } from '../../util/validators';
 const formName = 'Styleguide.FieldCheckboxGroup';
 const formNameRequired = 'Styleguide.FieldCheckboxGroupRequired';
 
-const label = <h3>Amenities</h3>;
+const label = <h3>Options</h3>;
 
 const commonProps = {
   label: label,
   options: [
     {
-      key: 'towels',
-      label: 'Towels',
+      key: 'Kitchen Available',
+      label: 'Kitchen Available',
     },
     {
-      key: 'bathroom',
-      label: 'Bathroom',
+      key: 'staff',
+      label: 'Staff',
     },
     {
-      key: 'swimming_pool',
-      label: 'Swimming pool',
+      key: 'silverware',
+      label: 'Silverware',
     },
     {
-      key: 'own_drinks',
-      label: 'Own drinks allowed',
+      key: 'glassware',
+      label: 'Glassware',
     },
     {
-      key: 'jacuzzi',
-      label: 'Jacuzzi',
+      key: 'bar',
+      label: 'Bar',
     },
     {
       key: 'audiovisual_entertainment',
       label: 'Audiovisual entertainment',
-    },
-    {
-      key: 'barbeque',
-      label: 'Barbeque',
-    },
-    {
-      key: 'own_food_allowed',
-      label: 'Own food allowed',
     },
   ],
   twoColumns: true,
@@ -112,7 +104,7 @@ export const Optional = {
     onSubmit: values => {
       console.log('Submit values: ', values);
     },
-    initialValues: { [optionalProps.name]: ['jacuzzi', 'towels'] },
+    initialValues: { [optionalProps.name]: ['', ''] },
     componentProps: optionalProps,
   },
   group: 'inputs',
