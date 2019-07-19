@@ -16,6 +16,7 @@ export const subUnitDivisors = {
   NZD: 100,
   SEK: 100,
   SGD: 100,
+  NZD: 100,
   USD: 100,
 };
 
